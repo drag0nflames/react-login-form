@@ -3,7 +3,7 @@ import React, { Component } from "react";
 class SignUpForm extends Component {
   render() {
     return (
-      <div className="FormCenter">
+      <div>
         <form className="FormFields" onSubmit="this.handleSubmit">
           <div className="FormField">
             <label className="FormField__Label" htmlFor="name">
@@ -58,7 +58,7 @@ class SignUpForm extends Component {
           <div className="FormField">
             <label className="FormField__CheckboxLabel">
               <input
-                class="FormField__Checkbox"
+                className="FormField__Checkbox"
                 type="checkbox"
                 name="hasAgreed"
               />

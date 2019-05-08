@@ -8,7 +8,7 @@ class App extends Component {
   render() {
     return (
       <Router>
-        <div className="row">
+        <div className="row" style={{ height: `${window.innerHeight}px` }}>
           <div className="App__Aside col-md-6" />
           <div className="App__Form col-md-6 col-xs-12">
             <div className="PageSwitcher">
