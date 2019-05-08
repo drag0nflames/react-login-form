@@ -35,7 +35,7 @@ class SignInForm extends Component {
           <div>
             <button className="FormField__Button mr-20">Sign In</button>
             <Link to="/" className="FormField_Link">
-              Create Account
+              Register
             </Link>
           </div>
         </form>
