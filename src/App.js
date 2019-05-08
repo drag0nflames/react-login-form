@@ -8,9 +8,9 @@ class App extends Component {
   render() {
     return (
       <Router>
-        <div className="App">
-          <div className="App__Aside" />
-          <div className="App__Form">
+        <div className="row">
+          <div className="App__Aside col-md-6" />
+          <div className="App__Form col-md-6 col-xs-12">
             <div className="PageSwitcher">
               <NavLink
                 exact

@@ -4,8 +4,8 @@ import { Link } from "react-router-dom";
 class SignInForm extends Component {
   render() {
     return (
-      <div className="FormCenter">
-        <form className="FormFields" onSubmit="this.handleSubmit">
+      <div>
+        <form className="FormField" onSubmit="this.handleSubmit">
           <div className="FormField">
             <label className="FormField__Label" htmlFor="email">
               Email Address

@@ -1,18 +1,12 @@
-.App {
-  height: 100vh;
-  display: flex;
-  color: white;
-}
-
 .App__Aside {
-  width: 50%;
   background-color: #ffffff;
   background-image: url("tl.png");
-  background-size: 100% 100%;
+  background-size: covered;
+  background-attachment: fixed;
+  background-repeat: no-repeat;
 }
 
 .App__Form {
-  width: 50%;
   background-color: #f2f2f2;
   padding: 25px 50px;
   background-size: 100% 100%;
@@ -22,7 +16,7 @@
 .PageSwitcher {
   display: flex;
   justify-content: flex-end;
-  margin-bottom: 10%;
+  margin-bottom: 5%;
 }
 
 .PageSwitcher__Item {
@@ -49,10 +43,6 @@
 .PageSwitcher__Item:last-child {
   border-top-right-radius: 25px;
   border-bottom-right-radius: 25px;
-}
-
-.FormCenter {
-  margin-bottom: 100px;
 }
 
 .FormTitle {
