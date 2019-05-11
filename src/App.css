@@ -1,3 +1,12 @@
+html,
+body {
+  width: 100%;
+  height: 100%;
+  margin: 0px;
+  padding: 0px;
+  overflow-x: hidden;
+}
+
 .App__Aside {
   background-color: #ffffff;
   background-image: url("tl.png");
@@ -10,7 +19,7 @@
   background-color: #f2f2f2;
   padding: 25px 50px;
   background-size: 100% 100%;
-  overflow: auto;
+  overflow: hidden;
 }
 
 .PageSwitcher {
